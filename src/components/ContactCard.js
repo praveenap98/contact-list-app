@@ -22,7 +22,7 @@ const ContactCard = ({contact}) => {
     }
     return(
         <div className='card'>
-            <div className='image'><img src={contact.picture.large} alt='person image'></img></div>
+            <div className='image'><img src={contact.picture.large} alt={contact.name.first}></img></div>
             <div className='details'>
                 <p>Name : {contact.name.first+" "+contact.name.last}</p>
                 <p>Email Id: {contact.email}</p>
