@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    margin-bottom: 30px;
+    width: 90%;
+    height: max-content;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: #0a6c80;
+}
+
+.card > div {
+    margin: 8px;
+}
+
+.card > div > p {
+    margin-bottom: 10px;
+}
+
+.card > .image {
+    flex-grow: 1;
+}
+
+.card > .details {
+    flex-grow: 20;
+    padding: 10px;
+}
+
+.button {
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: #77ca77;
+}
