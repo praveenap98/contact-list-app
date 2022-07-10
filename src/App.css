@@ -13,6 +13,7 @@ h1 {
 
 .main-container {
     background-color: lightcoral;
+    min-width: 500px;
 }
 
 .card-container {
@@ -28,6 +29,6 @@ h1 {
     padding: 30px 0 0;
     flex-wrap: wrap;
     color: #ffffff;
-    min-width: 620px;
+    min-width: 500px;
 }
 
