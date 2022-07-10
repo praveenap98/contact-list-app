@@ -4,11 +4,10 @@ import ContactCard from './components/ContactCard'
 
 const App = () => {
     const[contactsArray, setContactsArray] = useState([]);
-    let contacts;
-    
 
     useEffect(() => {
         const contactsGetter = async() => {
+            let contacts;
             let response = await fetch('https://randomuser.me/api/?results=5');
             response = await response.json();
             contacts = response.results;
