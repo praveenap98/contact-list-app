@@ -20,7 +20,7 @@ h1 {
     border-radius: 10px;
     background-color: lightgray;
     margin: 0 auto;
-    width: 50%;
+    width: 90%;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -28,5 +28,6 @@ h1 {
     padding: 30px 0 0;
     flex-wrap: wrap;
     color: #ffffff;
+    min-width: 620px;
 }
 
